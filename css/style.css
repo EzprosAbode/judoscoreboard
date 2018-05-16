@@ -1,124 +1,62 @@
-body {
-	margin: 0;
-	background: #212529;
+.redt {
+	color: #620108 !important;
 }
 
-.justify {
-	justify-content: center;
+.redb {
+	background-color: #620108 !important;
 }
 
-.bg-red {
-	background: #c93434;
+nav ul a,
+nav .brand-logo {
+  color: #444;
 }
 
-.bg-blue {
-	background: #2659ad;
+.logo-img { 
+	width: auto;
+	height: 60px;
+} 
+
+p {
+  line-height: 2rem;
 }
 
-.p-20 {
-	padding: 40px;
+.sidenav-trigger {
+  color: #620108;
 }
 
-.border-top {
-	border-top: 8px solid #212529 !important;
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
 }
 
-.border-bottom {
-	border-bottom: 8px solid #212529 !important;
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
 }
 
-/* Header */
-header {
-	height: 80vh;
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
 }
 
-.header {
-	padding-top: 200px;
-}
-
-.header .head-title {
-	text-transform: uppercase;
-	font-size: 4rem;
-	font-weight: 700;
-	margin-bottom: 25px;
-	letter-spacing: -4px;
-}
-
-.header .line {
-	width: 70px;
-	border: 4px solid #212529;
-}
-
-.header .head-subtitle {
-	margin-top: 25px;
-	margin-bottom: 70px;
-	font-size: 18px;
-	font-weight: 400;
-	letter-spacing: .5px;
-}
-
-.header a {
-	text-decoration: none;
-	color: #212529;
-	background: #fff;
-	padding:  15px 50px;
-	border: 2px solid #212529;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: 600;
-	letter-spacing: -1px;
-}
-
-/* Patch notes */
-#patchnotes {
-	background: #fff;
-	margin-top: -52px;
-}
-
-/* Download */
-.title {
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 35px;
-}
-
-.line-d {
-	width: 60px;
-	border: 2px solid #212529;
-}
-
-.description {
-	text-align: center;
-}
-
-.version a {
-	text-decoration: none;
-	color: #fff;
-}
-
-.download {
-	background: green;
-	text-align: center;
-	padding: 20px;
-	margin: 90px 0;
-	border-radius: 30px;
-}
-
-.download a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #fff;
-	font-size: auto;
-}
-
-/* Footer */
-.copyright {
-	padding: 40px;
-	margin-bottom: 0;
-	font-size: 16px;
-	font-weight: 500;
-}
-
-.copy {
-	font-weight: 1000;
+footer.page-footer {
+  margin: 0;
 }
